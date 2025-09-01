@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 const UserDashboard = () => {
   return (
-    <div className='flex items-center justify-center'>
+    <div className='w-full min-h-screen flex items-center justify-center'>
         <Nav/>
     </div>
   )
