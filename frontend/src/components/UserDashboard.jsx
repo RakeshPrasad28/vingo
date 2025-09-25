@@ -45,10 +45,10 @@ const UserDashboard = () => {
       
     }
     return()=>{
-      cateScrollRef.current.removeEventListener("scroll",()=>{
+      cateScrollRef?.current?.removeEventListener("scroll",()=>{
         updateButton(cateScrollRef, setShowLeftButton, setShowRightButton);
       })
-      shopScrollRef.current.removeEventListener("scroll",()=>{
+      shopScrollRef?.current?.removeEventListener("scroll",()=>{
         updateButton(shopScrollRef, setShowLeftShopButton, setShowRightShopButton);
       })
     }
